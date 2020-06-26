@@ -9,6 +9,24 @@ filetype off                  " required
 " Also load indent files, to automatically do language-dependent indenting.
 filetype plugin indent on
 
+" Clipboard
+"
+let g:clipboard = {
+  \ 'name': 'pbcopy',
+  \ 'copy': {
+  \    '+': 'pbcopy',
+  \    '*': 'pbcopy',
+  \  },
+  \ 'paste': {
+  \    '+': 'pbpaste',
+  \    '*': 'pbpaste',
+  \ },
+  \ 'cache_enabled': 0,
+  \ }
+
+" Airline Smarter Tab Line
+let g:airline#extensions#tabline#enabled = 1
+
 " Settings
 "
 set noerrorbells                " No beeps

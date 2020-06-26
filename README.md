@@ -1,5 +1,6 @@
 # vim-setup
-My neovim dot files. 
+
+My neovim dot files.
 The `init.vim` file is saved to [init.vim](https://github.com/jurgen-kluft/vim-setup/blob/master/init.vim).
 
 **Table of Contents**
